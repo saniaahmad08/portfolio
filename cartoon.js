@@ -40,7 +40,22 @@ ctx.lineTo(450,95);
 ctx.closePath();
 ctx.fill();
 ctx.stroke();
-
+// window 1
+ctx.beginPath();
+ctx.moveTo(375,230);
+ctx.lineTo(375,290);
+ctx.lineTo(425,290);
+ctx.lineTo(425,230);
+ctx.closePath();
+ctx.stroke();
+// window 2
+ctx.beginPath();
+ctx.moveTo(470,230);
+ctx.lineTo(470,290);
+ctx.lineTo(520,290);
+ctx.lineTo(520,230);
+ctx.closePath();
+ctx.stroke();
 // ground
 ctx.fillStyle = "LightGreen";
 ctx.fillRect(0,345,myCanvas.width,345);
