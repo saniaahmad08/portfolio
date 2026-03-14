@@ -5,8 +5,13 @@
 <title>Cartoon Project</title>
 </head> 
 <body>
-<canvas id = "mycancas" width = "800" height="600"></canvas>
-  <script src="cartoon.js"></script>
+<canvas id = "myCanvas" width = "300" height="150" style = 'border:1px solid grey"></canvas>
+<script>
+const myCanvas = document.getElementById("myCanvas");
+const ctx = myCanvas.getContext("2d");
+ctx.fillStyle = "red";
+ctx.fillRect(20, 20, 150, 100);
+</script>
 </body>
 
 </html>
