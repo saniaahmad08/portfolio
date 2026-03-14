@@ -8,9 +8,13 @@ ctx.fillStyle = "Gold";
 ctx.beginPath();
 ctx.arc(0,0,100,0,3.14159);
 ctx.fill();
+ctx.beginPath();
+ctx.moveTo(30,105);
+ctx.lineTo(30,115);
+
 // ground
 ctx.fillStyle = "LightGreen";
-ctx.fillRect(0,250,myCanvas.width,250);
+ctx.fillRect(0,275,myCanvas.width,275);
 // caption
 ctx.fillStyle = "black";
 ctx.font = "30px Arial";
