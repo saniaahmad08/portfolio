@@ -5,7 +5,12 @@ ctx.fillStyle = "LightCyan";
 ctx.fillRect(0,0,myCanvas.width,myCanvas.height);
 // sun
 ctx.fillStyle = "Gold";
+ctx.beginPath();
 ctx.arc(0,0,100,0,3.14159);
+ctx.fill();
+// ground
+ctx.fillStyle = "LightGreen";
+ctx.fillRect(0,150,myCanvas.width,150);
 // caption
 ctx.fillStyle = "black";
 ctx.font = "30px Arial";
