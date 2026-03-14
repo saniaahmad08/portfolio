@@ -10,7 +10,7 @@ ctx.arc(0,0,100,0,3.14159);
 ctx.fill();
 // ground
 ctx.fillStyle = "LightGreen";
-ctx.fillRect(0,150,myCanvas.width,150);
+ctx.fillRect(0,250,myCanvas.width,250);
 // caption
 ctx.fillStyle = "black";
 ctx.font = "30px Arial";
