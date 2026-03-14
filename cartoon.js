@@ -28,6 +28,9 @@ ctx.beginPath();
 ctx.moveTo(110,5);
 ctx.lineTo(110,9);
 ctx.stroke();
+// house
+ctx.fillStyle = "LightPink";
+ctx.fillRect(450,150,565,150);
 
 // ground
 ctx.fillStyle = "LightGreen";
