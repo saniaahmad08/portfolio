@@ -30,11 +30,20 @@ ctx.lineTo(110,9);
 ctx.stroke();
 // house
 ctx.fillStyle = "LightPink";
-ctx.fillRect(350,120,200,200);
+ctx.fillRect(350,200,200,180);
+// roof
+ctx.fillStyle = "LightCoral";
+ctx.beginPath();
+ctx.moveTo(350,200);
+ctx.lineTo(550,200);
+ctx.lineTo(450,95);
+ctx.closePath();
+ctx.fill();
+ctx.stroke();
 
 // ground
 ctx.fillStyle = "LightGreen";
-ctx.fillRect(0,275,myCanvas.width,275);
+ctx.fillRect(0,345,myCanvas.width,345);
 // caption
 ctx.fillStyle = "black";
 ctx.font = "30px Arial";
