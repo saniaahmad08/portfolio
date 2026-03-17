@@ -48,6 +48,16 @@ ctx.lineTo(425,290);
 ctx.lineTo(425,230);
 ctx.closePath();
 ctx.stroke();
+// window lines
+ctx.beginPath();
+ctx.moveTo(400, 230);
+ctx.lineTo(400, 290);
+ctx.stroke();
+
+ctx.beginPath();
+ctx.moveTo(375, 260);
+ctx.lineTo(425, 260);
+ctx.stroke();
 // window 2
 ctx.beginPath();
 ctx.moveTo(470,230);
@@ -56,6 +66,19 @@ ctx.lineTo(520,290);
 ctx.lineTo(520,230);
 ctx.closePath();
 ctx.stroke();
+//window lines 2
+ctx.beginPath();
+ctx.moveTo(495, 230);
+ctx.lineTo(495, 290);
+ctx.stroke();
+
+ctx.beginPath();
+ctx.moveTo(470, 260);
+ctx.lineTo(520, 260);
+ctx.stroke();
+//door
+ctx.fillStyle = 'LightCoral';
+ctx.fillRect(418,310 ,60 , 70);
 // ground
 ctx.fillStyle = "LightGreen";
 ctx.fillRect(0,345,myCanvas.width,345);
