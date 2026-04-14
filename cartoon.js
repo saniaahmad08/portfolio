@@ -28,10 +28,29 @@ ctx.beginPath();
 ctx.moveTo(110,5);
 ctx.lineTo(110,9);
 ctx.stroke();
+// fence
+ctx.strokeStyle = "darkGray";
+ctx.lineWidth = 17;
+
+for (let i = 0; i < 16; i++) {
+    ctx.save();
+    ctx.translate(i * 40, 0);
+    ctx.beginPath();
+    ctx.moveTo(0, 290);   
+    ctx.lineTo(0, 400);   
+    ctx.stroke();
+    ctx.restore();
+}
+ctx.fillStyle = "darkGray";
+ctx.fillRect(0,299,600,10);
+ctx.fillStyle = "darkGray";
+ctx.fillRect(0,323,600,10);
 // house
 ctx.fillStyle = "LightPink";
 ctx.fillRect(350,200,200,180);
 // roof
+ctx.strokeStyle = "black";
+ctx.lineWidth = 1;
 ctx.fillStyle = "LightCoral";
 ctx.beginPath();
 ctx.moveTo(350,200);
