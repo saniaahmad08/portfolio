@@ -96,8 +96,17 @@ ctx.moveTo(470, 260);
 ctx.lineTo(520, 260);
 ctx.stroke();
 //door
-ctx.fillStyle = 'LightCoral';
-ctx.fillRect(423,300 ,50 , 50);
+ctx.strokeStyle = "black";
+ctx.lineWidth = .6;
+ctx.fillStyle = "LightCoral";
+ctx.beginPath();
+ctx.moveTo(470,298);
+ctx.lineTo(470,344);
+ctx.lineTo(425,344);
+ctx.lineTo(425,298);
+ctx.closePath();
+ctx.fill();
+ctx.stroke();
 // ground
 ctx.fillStyle = "LightGreen";
 ctx.fillRect(0,345,myCanvas.width,345);
