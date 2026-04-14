@@ -78,7 +78,7 @@ ctx.lineTo(520, 260);
 ctx.stroke();
 //door
 ctx.fillStyle = 'LightCoral';
-ctx.fillRect(418,310 ,60 , 70);
+ctx.fillRect(423,300 ,50 , 50);
 // ground
 ctx.fillStyle = "LightGreen";
 ctx.fillRect(0,345,myCanvas.width,345);
