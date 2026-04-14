@@ -9,25 +9,21 @@ ctx.beginPath();
 ctx.arc(0,0,100,0,3.14159);
 ctx.fill();
 //sun rays
-ctx.beginPath();
-ctx.moveTo(10,105);
-ctx.lineTo(10,140);
-ctx.stroke();
+// ctx.beginPath();
+// ctx.moveTo(10,105);
+// ctx.lineTo(10,140);
+// ctx.stroke();
 
-ctx.beginPath();
-ctx.moveTo(25,101);
-ctx.lineTo(30,120);
-ctx.stroke();
+// ctx.beginPath();
+// ctx.moveTo(25,101);
+// ctx.lineTo(30,120);
+// ctx.stroke();
 
-ctx.beginPath();
-ctx.moveTo(40,97);
-ctx.lineTo(55,130);
-ctx.stroke();
+// ctx.beginPath();
+// ctx.moveTo(40,97);
+// ctx.lineTo(55,130);
+// ctx.stroke();
 
-ctx.beginPath();
-ctx.moveTo(110,5);
-ctx.lineTo(110,9);
-ctx.stroke();
 // fence
 ctx.strokeStyle = "darkGray";
 ctx.lineWidth = 17;
