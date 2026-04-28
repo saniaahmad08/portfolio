@@ -5,7 +5,6 @@
 <title>Word List Project</title>
 </head> 
 <body>
-  <script src="word.js"></script>
   <select id="wordSelect" onchange="syncWord()">
     <option value="">-- Choose a Word --</option>
     <option value="Hypothesis" data-def="A proposed explanation made of limited evidence as a starting point for further investigation.">Hypothesis</option>
@@ -15,6 +14,8 @@
     <option value="Impulsive" data-def="Acting or done without forethought">Impulsive</option>
   </select>
   <button>Speak Word</button>
-<input type="text" id="wordDisplay" readonly style="width: 600px;">
+  <input type="text" id="wordDisplay" readonly style="width: 600px;">
+  <button>Speak Sentence</button>
+  <script src="word.js"></script>
 </body>
 </html>
