@@ -5,6 +5,14 @@
 <title>Word List Project</title>
 </head> 
 <body>
-
+  <select id="wordSelect" onchange="syncWord()">
+    <option value="">-- Choose a Word --</option>
+    <option value="Hypothesis" data-temp="A proposed explanation made on the basis of limited evidence as a starting point for further investigation.">Hypothesis</option>
+    <option value="Contradiction" data-temp="A combination of statements, ideas, or features of a situation that are opposed to one another.">Contradiction</option>
+    <option value="Ambiguous" data-temp="Open to more than one interpretation">Ambiguous</option>
+    <option value="Tedious" data-temp="Too long, slow, or dull">Tedious</option>
+    <option value="Impulsive" data-temp="Acting or done without forethought">Impulsive</option>
+  </select>
+<input type="text" id="wordDisplay" readonly>
 </body>
 </html>
