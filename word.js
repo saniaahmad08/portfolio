@@ -3,9 +3,9 @@ function syncWord() {
  const display = document.getElementById("wordDisplay");
  if (menu.selectedIndex > 0) {
  const selectedOption = menu.options[menu.selectedIndex];
- // Extract and Display
  display.value = selectedOption.dataset.def;
- } else {
+ } 
+ else {
  display.value = "";
  }
 } 
