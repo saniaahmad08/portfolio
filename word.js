@@ -19,6 +19,6 @@ function speakWord(){
  const menu = document.getElementById("wordSelect");
  if (menu.selectedIndex > 0) {
   const selectedOption = menu.options[menu.selectedIndex];
-  speak(word);
+  speak(selectedOption);
  }
 }
