@@ -4,6 +4,7 @@ function syncWord() {
  if (menu.selectedIndex > 0) {
   const selectedOption = menu.options[menu.selectedIndex];
   display.value = selectedOption.dataset.def;
+  speak(selectedOption.value);
  } 
  else {
   display.value = "";
